@@ -1,0 +1,47 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.search-bg {
+  background-image: url(/public/images/pattern-bg-desktop.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 240px;
+  flex-direction: column;
+}
+.searchbar {
+  background-color: white;
+  border-radius: 5px;
+  min-width: 450px;
+  display: flex;
+  align-items: center;
+  height: 35px;
+}
+input {
+  outline: none;
+  text-indent: 12px;
+  width: 100%;
+  border: none;
+}
+h3 {
+  color: white;
+}
+.arrow-right {
+  background-color: black;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow-right svg {
+  fill: white;
+  height: 100%;
+  padding: 5px;
+}
